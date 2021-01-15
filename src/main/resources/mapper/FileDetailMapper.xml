@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jinguizi.mapper.FileDetailMapper">
+    <insert id="addFileDetail" parameterType="FileDetailVO">
+        insert into file_detail values(#{id},#{fileName},#{uploadTime},#{count},#{userId})
+    </insert>
+    <select id="findFileDetail" resultType="FileDetailVO" parameterType="FileDetail">
+        select
+        file_name fileName,
+        f.id id,
+        upload_time uploadTime,
+        count,
+        u.username username
+        from file_detail f,user u where f.user_id=u.id
+        <if test="fileName!=null and fileName!=''">
+            and file_name like concat('%',#{fileName},'%')
+        </if>
+        order by upload_time desc
+    </select>
+
+    <select id="findMaxId" resultType="int">
+        select IFNULL(max(id) ,0) as id from file_detail
+    </select>
+
+    <delete id="deleteFile" parameterType="int">
+        delete from file_detail where id=#{fileId}
+    </delete>
+
+    <select id="findFileNameById" parameterType="int" resultType="FileDetail">
+        select file_name fileName from file_detail where id=#{fileId}
+    </select>
+</mapper>

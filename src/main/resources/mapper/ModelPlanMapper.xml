@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jinguizi.mapper.ModelPlanMapper">
+    <select id="findModelPlanByName" parameterType="PageResult" resultType="ModelPlan">
+        select id,model_name modelName,
+                push_time pushTime,
+                data_type dataType,
+                outbound_cost outboundCost,
+                sms_cost smsCost,
+                case when channel="" then "/" else channel end as channel,
+                trigger_count triggerCount,
+                income,
+                register_count registerCount,
+                operators_line operatorsLine,
+                user_id userId,
+                file_name fileName,
+                group_time groupTime,
+                send_success_count sendSuccessCount,
+                data_count dataCount,
+                connect_count connectCount
+         from model_plan
+        where 1=1
+         <if test="modelName!=null and modelName!=''">
+             and model_name like concat('%',#{modelName},'%')
+         </if>
+        <if test="channel!=null and channel!=''">
+            and channel like concat('%',#{channel},'%')
+        </if>
+        <if test="maxNum!=null">
+            and income &lt;= #{maxNum}
+        </if>
+        <if test="minNum!=null">
+            and income &gt;= #{minNum}
+        </if>
+        <if test="endTime!=null">
+            and push_time &lt;= #{endTime}
+        </if>
+        <if test="beginTime!=null">
+            and push_time &gt;= #{beginTime}
+        </if>
+        order by push_time desc
+    </select>
+    <insert id="addModelPlan" parameterType="java.util.List">
+
+        insert into model_plan(file_name,model_name,outbound_cost,
+        sms_cost,income,register_count,channel,trigger_count,operators_line,
+        group_time,user_id,send_success_count,data_count,connect_count,file_id,push_time,data_type)
+        values
+            <foreach collection="list" item="item" separator=",">
+                (#{item.fileName},#{item.modelName},#{item.outboundCost},#{item.smsCost},
+                #{item.income},#{item.registerCount},#{item.channel},#{item.triggerCount},#{item.operatorsLine},
+                #{item.groupTime},#{item.userId},#{item.sendSuccessCount},#{item.dataCount},
+                #{item.connectCount},#{item.fileId},#{item.pushTime},#{item.dataType})
+            </foreach>
+
+    </insert>
+
+    <delete id="deleteFile" parameterType="int">
+        delete from model_plan where file_id=#{fileId}
+    </delete>
+    <select id="selectAll" resultType="ModelPlan">
+        select model_name modelName from model_plan
+    </select>
+</mapper>

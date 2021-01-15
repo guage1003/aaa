@@ -1,0 +1,32 @@
+#开发配置
+server:
+  port: 11224
+spring:
+  #我本地的数据源配置172.21.181.255   47.105.195.132  121.37.180.225   192.168.124.3
+  datasource:
+    url: jdbc:mysql://192.168.124.3:3316/jinguizi?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false&&serverTimezone=Hongkong
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  application:
+    name: springboot-jwt
+  # config:
+      # jwt:
+      # 加密密钥
+      # secret: abcdefg1234567
+      # token有效时长
+      # expire: 30000
+
+      # header 名称
+    # header: token
+
+mybatis:
+  typeAliasesPackage: com.jinguizi.bean
+  mapperLocations: classpath:mapper/*.xml
+
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
+

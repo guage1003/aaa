@@ -1,0 +1,64 @@
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [D:\project\uploading\src\main\java\]
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: project type not set, try to figure out...
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : D:\project\uploading\src\main\java\
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : FileDetailController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : ModelPlanController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : StatController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : SyncModelPlanController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find controller file : UserController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : FileDetailController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : FileDetailController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : ModelPlanController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : ModelPlanController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : StatController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : StatController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : SyncModelPlanController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : SyncModelPlanController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : UserController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to parse controller file : UserController.java
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+一月 13, 2021 4:59:02 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\FileDetailController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\FileDetailController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\ModelPlanController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\ModelPlanController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\StatController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\StatController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\SyncModelPlanController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\SyncModelPlanController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\UserController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: success to generate docs for controller file : D:\project\uploading\src\main\java\com\jinguizi\controller\UserController.java
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index start !!!
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate index done !!!
+一月 13, 2021 4:59:03 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs done !!!

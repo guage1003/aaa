@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jinguizi.mapper.PortalHostMapper">
+
+    <select id="searchHost" parameterType="SearchHostParams" resultType="PortalHostModel">
+        select
+        id,
+        mode_id modeId,
+        `name`,
+        class,
+        subclass_1 subclass1,
+        subclass_2 subclass2,
+        subclass_3 subclass3,
+        subclass_4 subclass4,
+        subclass_5 subclass5,
+        update_date updateDate,
+        user_id userId,
+        host_type hostType,
+        host,
+        url,
+        path,
+        source_name sourceName,
+        source_type sourceType,
+        link_describe linkDescribe,
+        link_content likeContent,
+        state
+        from portal_host where state=1
+        <if test="modelId!=null and modelId!=''">
+            and mode_id like concat('%',#{modelId},'%')
+        </if>
+        <if test="userId!=null and userId!=''">
+            and user_id=#{userId}
+        </if>
+        GROUP BY mode_id,name,class,subclass_1,subclass_2,subclass_3,subclass_4,subclass_5,update_date order by id desc
+    </select>
+
+    <insert id="insertPortalHostModel" parameterType="PortalHostModel">
+        insert into portal_host values
+        (null,#{modeId},#{userId},#{hostType},#{url},
+        #{host},#{path},#{updateDate},#{name},#{sourceName},
+        #{sourceType},#{linkDescribe},#{linkContent},
+        #{class},#{subclass1},#{subclass2},#{subclass3},
+        #{subclass4},#{subclass5},#{state})
+    </insert>
+
+    <update id="updatePortalHostModelByModeId" parameterType="PortalHostModel">
+        update portal_host set
+        mode_id=#{modeId},user_id=#{userId},host_type=#{hostType},url=#{url},
+        host=#{host},path=#{path},update_date=#{updateDate},name=#{name},source_name=#{sourceName},
+        source_type=#{sourceType},link_describe=#{linkDescribe},link_content=#{linkContent},
+        class=#{class},subclass_1=#{subclass1},subclass_2=#{subclass2},subclass_3=#{subclass3},
+        subclass_4=#{subclass4},subclass_5=#{subclass5},state=#{state} where id=#{id}
+    </update>
+
+    <select id="findPortalModelByState" resultType="PortalHostModel">
+        select
+        id,
+        mode_id modeId,
+        `name`,
+        class,
+        subclass_1 subclass1,
+        subclass_2 subclass2,
+        subclass_3 subclass3,
+        subclass_4 subclass4,
+        subclass_5 subclass5,
+        update_date updateDate,
+        user_id userId,
+        host_type hostType,
+        host,
+        url,
+        path,
+        source_name sourceName,
+        source_type sourceType,
+        link_describe linkDescribe,
+        link_content likeContent,
+        state
+        from portal_host where state=0
+  </select>
+
+    <update id="auditHost" parameterType="AuditHostParams">
+        update portal_host set mode_id=#{modeId},state=1 where id=#{id}
+    </update>
+</mapper>

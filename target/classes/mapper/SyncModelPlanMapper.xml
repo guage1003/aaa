@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jinguizi.mapper.SyncModelPlanMapper">
+
+    <select id="selectByExample" parameterType="SyncModelPlanVO" resultType="SyncModelPlanVO">
+        select
+        s.model_id modelId,
+        s.name,
+        s.product_name productName,
+        s.cp,
+        s.product_type productType,
+        s.product_url productUrl,
+        s.`type`,
+        s.paid_grade paidGrade,
+        s.custom_model customModel,
+        s.script_id scriptId,
+        s.script_name scriptName,
+        s.script_content scriptContent,
+        s.label,
+        s.gid,
+        s.create_time createTime,
+        s.update_time updateTime,
+        s.user_id userId,
+        u.username userName
+        from sync_model_plan s,`user` u
+        where s.user_id=u.id
+
+        <if test="name!=null and name!=''">
+            and s.name like concat('%',#{name},'%')
+        </if>
+        <if test="maxTime!=null and maxTime!=''">
+            and DATE_FORMAT(s.create_time,'%Y-%m-%d') &lt;= #{maxTime}
+        </if>
+
+        <if test="minTime!=null and minTime!=''">
+            and DATE_FORMAT(s.create_time,'%Y-%m-%d') &gt;= #{minTime}
+        </if>
+        <if test="cp!=null and cp!=''">
+            and s.cp=#{cp}
+        </if>
+    </select>
+
+    <update id="updateSyncByExample" parameterType="SyncModelPlan">
+        update sync_model_plan set paid_grade=#{paidGrade},custom_model=#{customModel},update_time=#{updateTime},user_id=#{userId}  where model_id=#{modelId}
+    </update>
+    <select id="findCpAll" resultType="SyncModelPlan">
+        select distinct cp from sync_model_plan
+    </select>
+</mapper>
