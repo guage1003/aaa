@@ -1,127 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ceff291-d49f-453b-b47d-5b5824cfd674" name="Default Changelist" comment="刘志文">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/aa3eac7f-0975-4491-8abb-74e81c6ce16b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/aa3eac7f-0975-4491-8abb-74e81c6ce16b/storage_v2/_src_/schema/jinguizi.-zNCdw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/aa3eac7f-0975-4491-8abb-74e81c6ce16b/storage_v2/_src_/schema/jinguizi.-zNCdw.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/aa3eac7f-0975-4491-8abb-74e81c6ce16b/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/aa3eac7f-0975-4491-8abb-74e81c6ce16b/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/.cache.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/apidoc.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/com_jinguizi_controller_FileDetailController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/com_jinguizi_controller_ModelPlanController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/com_jinguizi_controller_StatController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/com_jinguizi_controller_SyncModelPlanController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/com_jinguizi_controller_UserController.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/iosCodes/com_jinguizi_controller_FileDetailController_deleteFile_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/iosCodes/com_jinguizi_controller_FileDetailController_findFileDetail_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/iosCodes/com_jinguizi_controller_ModelPlanController_findModelPlanByName_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/iosCodes/com_jinguizi_controller_ModelPlanController_upload_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/iosCodes/com_jinguizi_controller_StatController_modelPlanCount_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/iosCodes/com_jinguizi_controller_SyncModelPlanController_findCpAll_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/iosCodes/com_jinguizi_controller_SyncModelPlanController_selectByExample_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/iosCodes/com_jinguizi_controller_SyncModelPlanController_updateSyncByExample_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/iosCodes/com_jinguizi_controller_UserController_findUserByNameAndPassword_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/javaCodes/com_jinguizi_controller_FileDetailController_deleteFile_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/javaCodes/com_jinguizi_controller_FileDetailController_findFileDetail_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/javaCodes/com_jinguizi_controller_ModelPlanController_findModelPlanByName_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/javaCodes/com_jinguizi_controller_ModelPlanController_upload_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/javaCodes/com_jinguizi_controller_StatController_modelPlanCount_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/javaCodes/com_jinguizi_controller_SyncModelPlanController_findCpAll_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/javaCodes/com_jinguizi_controller_SyncModelPlanController_selectByExample_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/javaCodes/com_jinguizi_controller_SyncModelPlanController_updateSyncByExample_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/javaCodes/com_jinguizi_controller_UserController_findUserByNameAndPassword_Result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index/V2.0/回填数据平台-V2.0-api-docs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/_IS_UNDEFINED/warn/web-warn-2020-12-25.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/_IS_UNDEFINED/warn/web-warn-2020-12-28.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/_IS_UNDEFINED/warn/web-warn-2020-12-29.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/_IS_UNDEFINED/warn/web-warn-2020-12-30.0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/_IS_UNDEFINED/web_debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/_IS_UNDEFINED/web_error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/_IS_UNDEFINED/web_info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/_IS_UNDEFINED/web_warn.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/TestJApiDocs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/UploadApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/AuditHostParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Authority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/DeleteFileByIdParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/FileDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/FileDetailVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/FindDetailParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/ModelPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/PortalHostModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/SearchHostParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/SelectByExampleParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/StatVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/SyncModelPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/SyncModelPlanVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/SysLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/CheckResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/HttpContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/IpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/SystemConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/FileDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/ModelPlanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/PortalHostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/StatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/SyncModelPlanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/exception/DefinitionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/AuthMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/FileDetailMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/ModelPlanMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/PortalHostMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/StatMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/SyncModelPlanMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/SysLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/FileDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/ModelPlanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/PortalHostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/StatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/SyncModelPlanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AuthMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/FileDetailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ModelPlanMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PoralHostMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/StatMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SyncModelPlanMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jinguizi/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploading.iml" afterDir="false" />
+    <list default="true" id="0ceff291-d49f-453b-b47d-5b5824cfd674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/AuthorityDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/userDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/AuthorityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa3eac7f-0975-4491-8abb-74e81c6ce16b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aa3eac7f-0975-4491-8abb-74e81c6ce16b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Authority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/config/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/AuthMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/AuthMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jinguizi/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AuthMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AuthMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jinguizi/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jinguizi/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinguizi/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinguizi/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinguizi/config/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinguizi/config/MyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinguizi/config/ResultCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinguizi/config/ResultCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinguizi/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinguizi/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinguizi/mapper/AuthMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinguizi/mapper/AuthMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinguizi/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinguizi/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinguizi/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinguizi/service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jinguizi/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jinguizi/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AuthMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AuthMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jinguizi/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jinguizi/Test01.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -145,7 +61,7 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="c" type="feb32156:DbDataSourceImpl" />
+        <item name="192.168.124.3" type="feb32156:DbDataSourceImpl" />
       </path>
     </expand>
     <select />
@@ -213,60 +129,65 @@
     <session id="163926093">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="authority" value="3" />
           <entry key="class" value="1" />
-          <entry key="java" value="61" />
-          <entry key="sql" value="1" />
-          <entry key="xml" value="10" />
-          <entry key="yml" value="4" />
+          <entry key="java" value="128" />
+          <entry key="sql" value="2" />
+          <entry key="user" value="2" />
+          <entry key="xml" value="28" />
+          <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="61" />
+          <entry key="Database Element" value="5" />
+          <entry key="JAVA" value="128" />
+          <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="10" />
-          <entry key="YAML" value="4" />
+          <entry key="XML" value="28" />
+          <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1534" />
+          <entry key="java" value="4679" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="309" />
-          <entry key="yml" value="7" />
+          <entry key="xml" value="1944" />
+          <entry key="yml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1534" />
+          <entry key="JAVA" value="4679" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="SQL" value="15" />
-          <entry key="XML" value="294" />
-          <entry key="YAML" value="7" />
+          <entry key="SQL" value="33" />
+          <entry key="XML" value="1911" />
+          <entry key="YAML" value="32" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/AuthService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="381">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -275,28 +196,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AuthMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="475">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/UploadApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/AuthMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="400">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyFilter.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="200">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1475">
+              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/RoleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -305,62 +262,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/JsonUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/RoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="61" column="96" selection-start-line="61" selection-start-column="88" selection-end-line="61" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/ResultCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/CorsConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="550">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/AuditHostParams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/DeleteFileByIdParams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/MD5Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -394,18 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/SyncModelPlan.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/SyncModelPlanVO.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/ModelPlanMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/service/FileDetailService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/SyncModelPlanMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/config/IpUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/UploadApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/config/LogAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/config/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/ModelPlanController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/StatController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/findFileDetailParams.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/FindDetailParams.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/DeleteFileByIdParams.java" />
@@ -419,7 +315,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/service/PotalHostService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/PotalHostMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/SearchHostParams.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/AuditHostParams.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/PortalHostMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/PoralHostMapper.xml" />
@@ -428,23 +323,36 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/PortalHostModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/service/PortalHostService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/service/ModelPlanService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/TestJApiDocs.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/Authmapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Authority.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/AuthityTset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/AuthMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/AuthMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/service/AuthService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jinguizi/Test01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/config/ResultCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/config/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Authority.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyFilter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jinguizi/Test01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/AuthorityDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/RoleDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/AuthorityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/bean/userDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AuthMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/AuthMapper.java" />
       </list>
     </option>
   </component>
@@ -494,6 +402,23 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Mybatis</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MybatisMapperXmlInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -502,7 +427,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -610,40 +534,11 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="uploading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uploading" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uploading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uploading" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uploading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uploading" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uploading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uploading" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jinguizi" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,7 +550,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610706067469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610964848163" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -702,6 +598,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test01.deleteAuthority" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uploading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinguizi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jinguizi" />
+      <option name="MAIN_CLASS_NAME" value="com.jinguizi.Test01" />
+      <option name="METHOD_NAME" value="deleteAuthority" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test01.loadMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uploading" />
       <extension name="coverage">
@@ -718,7 +630,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test01.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uploading" />
       <extension name="coverage">
         <pattern>
@@ -728,23 +640,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.jinguizi" />
       <option name="MAIN_CLASS_NAME" value="com.jinguizi.Test01" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test01.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="uploading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jinguizi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jinguizi" />
-      <option name="MAIN_CLASS_NAME" value="com.jinguizi.Test01" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -765,18 +661,18 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.UploadApp" />
-      <item itemvalue="JUnit.Test01.test2" />
-      <item itemvalue="JUnit.Test01.test03" />
       <item itemvalue="Application.TestJApiDocs" />
       <item itemvalue="JUnit.Test01.loadMenu" />
+      <item itemvalue="JUnit.Test01.test02" />
+      <item itemvalue="JUnit.Test01.deleteAuthority" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.UploadApp" />
+        <item itemvalue="JUnit.Test01.deleteAuthority" />
+        <item itemvalue="JUnit.Test01.test02" />
         <item itemvalue="JUnit.Test01.loadMenu" />
         <item itemvalue="Application.TestJApiDocs" />
-        <item itemvalue="JUnit.Test01.test03" />
-        <item itemvalue="JUnit.Test01.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -813,7 +709,10 @@
       <workItem from="1610606601301" duration="754000" />
       <workItem from="1610607552638" duration="599000" />
       <workItem from="1610608716027" duration="599000" />
-      <workItem from="1610672443388" duration="16070000" />
+      <workItem from="1610672443388" duration="17107000" />
+      <workItem from="1610931303351" duration="183000" />
+      <workItem from="1610931890621" duration="28970000" />
+      <workItem from="1611018667633" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="刘志文">
       <created>1610704965520</created>
@@ -829,40 +728,50 @@
       <option name="project" value="LOCAL" />
       <updated>1610705550600</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="刘志文">
+      <created>1610706094716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610706094716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test01_test2 - 2020.12.23 at 11h 46m 18s.xml">
-      <configuration name="Test01.test2" configurationId="JUnit" />
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 14h 44m 31s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_test03 - 2021.01.05 at 16h 43m 51s.xml">
-      <configuration name="Test01.test03" configurationId="JUnit" />
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 14h 44m 52s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_loadMenu - 2021.01.15 at 15h 46m 47s.xml">
-      <configuration name="Test01.loadMenu" configurationId="JUnit" />
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 14h 45m 51s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_loadMenu - 2021.01.15 at 15h 47m 13s.xml">
-      <configuration name="Test01.loadMenu" configurationId="JUnit" />
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 14h 47m 46s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_loadMenu - 2021.01.15 at 15h 48m 14s.xml">
-      <configuration name="Test01.loadMenu" configurationId="JUnit" />
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 14h 48m 32s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_loadMenu - 2021.01.15 at 15h 50m 20s.xml">
-      <configuration name="Test01.loadMenu" configurationId="JUnit" />
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 14h 49m 56s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_loadMenu - 2021.01.15 at 15h 57m 02s.xml">
-      <configuration name="Test01.loadMenu" configurationId="JUnit" />
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 14h 50m 42s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_loadMenu - 2021.01.15 at 16h 22m 31s.xml">
-      <configuration name="Test01.loadMenu" configurationId="JUnit" />
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 14h 50m 54s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test01_loadMenu - 2021.01.15 at 16h 22m 49s.xml">
-      <configuration name="Test01.loadMenu" configurationId="JUnit" />
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 14h 51m 08s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test01_deleteAuthority - 2021.01.18 at 15h 06m 54s.xml">
+      <configuration name="Test01.deleteAuthority" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="382320000" />
+    <option name="totallyTimeSpent" value="413115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -884,25 +793,26 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.23347548" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20575693" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32962137" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Spring" order="6" weight="0.32962137" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.3716434" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.3986637" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.33073497" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32975295" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" weight="0.3716434" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32867885" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32975295" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32975295" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32962137" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49946696" weight="0.3716434" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.39849624" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.33073497" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.2531983" />
-      <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="2" weight="0.21641791" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Bean Validation" order="5" />
@@ -911,40 +821,6 @@
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.19829424" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="6" weight="0.32962137" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.3452116" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.3986637" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.33073497" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Maven Projects" order="1" weight="0.32889125" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -957,315 +833,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="刘志文" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/PortalHostModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/StatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/PortalHostService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="76" column="48" lean-forward="true" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/SyncModelPlanController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zOCCF807C9/ModelPlanController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/StatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/FileDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/develop/IdeaProjack/heima-leadnews/heima-leadnews-admin/src/main/java/com/heima/admin/config/ElasticSearchConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/develop/IdeaProjack/heima-leadnews/heima-leadnews-admin/src/main/java/com/heima/admin/AdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/LogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/develop/IdeaProjack/health/health_parent/health_common/src/main/java/com/itheima/utils/POIUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1843" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/afterturn/easypoi-base/3.0.3/easypoi-base-3.0.3.jar!/cn/afterturn/easypoi/excel/entity/ExportParams.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="188" column="5" lean-forward="true" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/ModelPlanService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6625">
-          <caret line="298" column="66" selection-start-line="298" selection-start-column="66" selection-end-line="298" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/FileDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/FileDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/HttpContextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1857">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ModelPlanMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PoralHostMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/PortalHostMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FileDetailMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/TestJApiDocs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/AuthityTset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Authority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2768#2769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa3eac7f-0975-4491-8abb-74e81c6ce16b/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AuthMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/AuthMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jinguizi/Test01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="108" column="69" lean-forward="true" selection-start-line="108" selection-start-column="69" selection-end-line="108" selection-end-column="69" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/StatVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/AuditHostParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/DeleteFileByIdParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1276,37 +850,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/JwtUtil.java">
+    <entry file="file://D:/develop/IdeaProjack/heima-leadnews/heima-leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/filter/AuthorizeFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/develop/IdeaProjack/heima-leadnews/heima-leadnews-admin-gateway/src/main/java/com/heima/admin/gateway/filter/AuthorizeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1685">
-          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="500">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/UploadApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="61" column="96" selection-start-line="61" selection-start-column="88" selection-end-line="61" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/AuditHostParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1317,41 +900,363 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/JsonUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/JwtUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="61" column="96" selection-start-line="61" selection-start-column="88" selection-end-line="61" selection-end-column="96" />
+        <state relative-caret-position="-797">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/ResultCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="460">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/AuthService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/StatController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="186">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/PortalHostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/ModelPlanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/FileDetailMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/ModelPlanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5030">
+          <caret line="298" column="66" selection-start-line="298" selection-start-column="66" selection-end-line="298" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://aa3eac7f-0975-4491-8abb-74e81c6ce16b/schema/jinguizi/table/authority">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/FileDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/DeleteFileByIdParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/FileDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FileDetailMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="375">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/ModelPlanMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ModelPlanMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/MyFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="384">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/config/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jinguizi/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="146" column="65" selection-start-line="146" selection-start-column="65" selection-end-line="146" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/PortalHostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/Java/jdk1.8.0_91/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/AuthorityDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/RoleDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/AuthorityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1871">
+          <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://aa3eac7f-0975-4491-8abb-74e81c6ce16b/schema/jinguizi/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/userDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/bean/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AuthMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/mapper/AuthMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jinguizi/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

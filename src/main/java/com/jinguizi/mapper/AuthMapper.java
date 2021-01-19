@@ -8,5 +8,15 @@ import java.util.List;
 
 @Mapper
 public interface AuthMapper {
-    public List<Authority> findAuthorityByParentId(@Param("parentId") Integer parentId ,@Param("id") Integer id);
+    public List<Authority> findAuthorityByParentIdAndUserId(@Param("parentId") Integer parentId , @Param("id") Integer id);
+
+    void addAuthority(Authority authority);
+
+    List<Authority> findAuthorityByParentId(Integer ParentId);
+
+    void updateAuthority(Authority authority);
+
+    void deleteAuthority(Integer id);
+
+    List<Authority> findAuthorityByRoleId(Integer RoleId);
 }

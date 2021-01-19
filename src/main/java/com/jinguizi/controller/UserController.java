@@ -65,6 +65,21 @@ public class UserController {
         }
     }
 
+    /**
+     * 查询所有的用户以及用户拥有的角色和权限
+     * @return 将查询出来的用户，通过Result工具类返回
+     */
+    @PostMapping("findAllUser")
+    public Result findAllUser(){
+        try {
+            List<User> userList = userService.findAllUser();
+            return Result.success(userList);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return Result.failure(ResultCode.FAIL);
+        }
+    }
+
    /* @PostMapping("verifyUserByName")
     public Result verifyUserByName(String userName){
         User user=userService.verifyUserByName(userName);

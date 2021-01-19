@@ -4,6 +4,7 @@ import com.jinguizi.bean.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.net.InetAddress;
+import java.util.List;
 
 /**
  * @Title: UserMapper
@@ -21,4 +22,7 @@ public interface UserMapper {
     void registerUser(User user);
 
     User findUserById(Integer id);
+
+    List<User> findAllUser();
+
 }

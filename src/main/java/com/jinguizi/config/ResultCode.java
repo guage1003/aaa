@@ -16,6 +16,8 @@ public enum ResultCode {
 
     NO_PERMISSION(4005,"无权使用"),
 
+    ERROR_PARAMETER(4006,"无效参数"),
+
     ERROR_TOKEN(5001, "token失效");
 
     private Integer code;

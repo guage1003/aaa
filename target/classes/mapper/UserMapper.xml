@@ -15,4 +15,17 @@
     <select id="findUserById" parameterType="int" resultType="User">
         select * from user where id=#{id}
     </select>
+
+    <resultMap id="findAllUserResultMap" type="User" autoMapping="true">
+        <id column="id" property="id"/>
+        <collection property="roleList"
+                    ofType="Role"
+                    javaType="List"
+                    column="id"
+                    select="com.jinguizi.mapper.RoleMapper.findRoleByUserId">
+        </collection>
+    </resultMap>
+    <select id="findAllUser" resultMap="findAllUserResultMap">
+        select id,username from user
+    </select>
 </mapper>

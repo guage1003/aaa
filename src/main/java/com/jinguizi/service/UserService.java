@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @Title: UserService
@@ -30,5 +31,10 @@ public class UserService {
 
     public void registerUser(User user){
         userMapper.registerUser(user);
+    }
+
+    public List<User> findAllUser(){
+        List<User> userList = userMapper.findAllUser();
+        return userList;
     }
 }

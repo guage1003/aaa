@@ -1,5 +1,6 @@
 package com.jinguizi.config;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
@@ -39,22 +40,15 @@ public class MyFilter implements Filter {
             if (list.contains(uri)){
                 filterChain.doFilter(request,response);
             }else {
-                //输出响应流
-                JSONObject jsonObject = new JSONObject();
-                jsonObject.put("code","4005");
-                jsonObject.put("msg", "无权访问");
                 response.setCharacterEncoding("UTF-8");
                 response.setContentType("application/json; charset=utf-8");
-                response.getOutputStream().write(jsonObject.toString().getBytes(StandardCharsets.UTF_8));
+                response.getOutputStream().write(JSON.toJSONBytes(Result.failure(ResultCode.NO_PERMISSION)));
             }
         } catch (Exception e) {
             e.printStackTrace();
-            JSONObject jsonObject = new JSONObject();
-            jsonObject.put("code","4005");
-            jsonObject.put("msg", "无权访问");
             response.setCharacterEncoding("UTF-8");
             response.setContentType("application/json; charset=utf-8");
-            response.getOutputStream().write(jsonObject.toString().getBytes(StandardCharsets.UTF_8));
+            response.getOutputStream().write(JSON.toJSONBytes(Result.failure(ResultCode.NO_PERMISSION)));
         }
     }
 }

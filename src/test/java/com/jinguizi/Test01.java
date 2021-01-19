@@ -1,6 +1,9 @@
 package com.jinguizi;
 
+import com.alibaba.fastjson.JSON;
 import com.jinguizi.bean.Authority;
+import com.jinguizi.config.Result;
+import com.jinguizi.config.ResultCode;
 import com.jinguizi.mapper.AuthMapper;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -12,7 +15,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.sound.midi.Soundbank;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -99,6 +101,11 @@ public class Test01 {
         }
     }
 
+    @Test
+    public void test02(){
+        System.out.println(JSON.toJSON(Result.failure(ResultCode.NO_PERMISSION)));
+    }
+
 
 
     @Autowired
@@ -106,7 +113,7 @@ public class Test01 {
 
     @Test
     public void loadMenu(){
-        List<Authority> list = authmapper.findAuthorityByParentId(0,1);
+        List<Authority> list = authmapper.findAuthorityByParentIdAndUserId(0,1);
         List<Map<String, Object>> resultList = findAuthority(list,1);
         System.out.println(resultList);
     }
@@ -124,7 +131,7 @@ public class Test01 {
             map.put("parent_id",authority.getParentId());
             map.put("order",authority.getOrder());
             map.put("icon",authority.getIcon());
-            List<Authority> authorityList = authmapper.findAuthorityByParentId(authority.getId(),id);
+            List<Authority> authorityList = authmapper.findAuthorityByParentIdAndUserId(authority.getId(),id);
             if (authorityList.size()>0){
                 children = findAuthority(authorityList,id);
             }
@@ -132,5 +139,26 @@ public class Test01 {
             maps.add(map);
         }
         return maps;
+    }
+
+
+    @Test
+    public void deleteAuthority() {
+        List<Integer> authorityIds = findAllAuthorityByParentId(7);
+        System.out.println("authorityIds = " + authorityIds);
+    }
+
+    private List<Integer> findAllAuthorityByParentId(Integer id) {
+        List<Authority> authorityList = authmapper.findAuthorityByParentId(id);
+        if (authorityList==null||authorityList.size()==0){
+            return null;
+        }else {
+            ArrayList<Integer> AuthorityIds = new ArrayList<>();
+            for (Authority authority : authorityList) {
+                List<Integer> list = findAllAuthorityByParentId(authority.getId());
+                AuthorityIds.add(authority.getId());
+            }
+            return AuthorityIds;
+        }
     }
 }

@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jinguizi.mapper.AuthMapper">
-    <select id="findAuthorityByParentId" parameterType="integer" resultType="Authority">
+    <select id="findAuthorityByParentIdAndUserId" parameterType="integer" resultType="com.jinguizi.bean.Authority">
         select
         a.id id,
         a.path path,
@@ -20,4 +20,51 @@
         and parent_id = #{parentId}
         ORDER BY a.order asc
     </select>
+
+    <select id="findAuthorityByParentId" resultType="com.jinguizi.bean.Authority">
+        select
+        id,
+        path,
+        name,
+        component,
+        type type,
+        parent_id parentId,
+        `order`,
+        icon
+        from authority
+        where parent_id = #{parentId}
+        ORDER BY `order` asc
+    </select>
+    <select id="findAuthorityByRoleId" resultType="com.jinguizi.bean.Authority">
+        select
+        id,
+        path,
+        name,
+        component,
+        type type,
+        parent_id parentId,
+        `order`,
+        icon
+        from authority
+        where
+        id in (select Authority_id from role_authority where role_id = #{roleId})
+    </select>
+
+    <insert id="addAuthority" parameterType="com.jinguizi.bean.Authority">
+        insert into authority values(null,#{path},#{name},#{component},#{type},#{parentId},#{icon},#{order});
+    </insert>
+    <update id="updateAuthority" parameterType="com.jinguizi.bean.Authority">
+        update authority set
+        path = #{path},
+        name = #{name},
+        component = #{component},
+        type = #{type},
+        parent_id = #{parentId},
+        icon = #{icon},
+        `order` = #{order}
+        where id = #{id}
+    </update>
+    <delete id="deleteAuthority" parameterType="integer">
+        delete from authority where id = #{id}
+    </delete>
 </mapper>

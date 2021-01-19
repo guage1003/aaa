@@ -11,10 +11,10 @@ import java.util.Objects;
  **/
 public class Authority implements Serializable {
     private Integer id;
-    private String path;
-    private String name;
+    private String path;//访问路径
+    private String name;//名称
     private String component;
-    private Integer type;
+    private Integer type;//类型
     private Integer parentId;
     private Integer order;
     private String icon;

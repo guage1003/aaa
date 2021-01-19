@@ -1,6 +1,8 @@
 package com.jinguizi.bean;
 
 import java.io.Serializable;
+import java.util.List;
+import java.util.Objects;
 
 /**
  * @Title: User
@@ -14,6 +16,24 @@ public class User implements Serializable {
     private String username;
     private String password;
     private Integer userright;
+    private List<Role> roleList;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(id, user.id) &&
+                Objects.equals(username, user.username) &&
+                Objects.equals(password, user.password) &&
+                Objects.equals(userright, user.userright) &&
+                Objects.equals(roleList, user.roleList);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, username, password, userright, roleList);
+    }
 
     @Override
     public String toString() {
@@ -22,7 +42,16 @@ public class User implements Serializable {
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", userright=" + userright +
+                ", roleList=" + roleList +
                 '}';
+    }
+
+    public List<Role> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<Role> roleList) {
+        this.roleList = roleList;
     }
 
     public Integer getUserright() {
